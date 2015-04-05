@@ -1,4 +1,5 @@
 /// <reference path="jquery.d.ts" />
+
 export class Greeter {
     element:HTMLElement;
     span:HTMLElement;
