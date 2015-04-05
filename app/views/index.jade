@@ -1,0 +1,23 @@
+//doctype html
+//html
+//    head
+//        title App
+//        srcipt(src='/js/lib/require.js')
+//        script(src='/js/app.js')
+//        link(href='/css/app.css', rel='stylesheet', type='text/css', media='all')
+//    body
+//        script.
+//            window.App = require('appkit/app').default.create();
+
+doctype html
+html(lang='en')
+    head
+        meta(charset='utf-8')
+        title TypeScript HTML App
+        link(rel='stylesheet', href='/css/app.css', type='text/css')
+        script(type='text/javascript', src='/js/lib/jquery.js')
+        script(data-main='/js/app', type='text/javascript', src='/js/lib/require.js')
+    body
+        h1 TypeScript HTML App
+        #content
+        #result

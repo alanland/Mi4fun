@@ -1,2 +1,8 @@
-_site/
-.sass-cache/
+tmp
+build
+node_modules
+app/**/*.css
+app/**/*.html
+app/js/*/**/*.js
+app/js/*/**/*.js.map
+app/js/lib/*/*
